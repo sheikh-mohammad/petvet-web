@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petvet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="hero-section">
+        <div class="top-section fixed-top">
+            <div class="top-nav bg-white w-100 px-5 py-2 d-flex justify-content-between">
+                <div class="contact-details">
+                    <span class="fw-bold text-body-tertiary small">Phone no: <span class="text-dark">+00 1234 567</span>
+                        or
+                        email us: <span class="text-dark">emailsample@email.com</span></span>
+                </div>
+                <div class="social-icons d-flex justify-content-center align-items-center gap-2">
+                    <i class="fa-brands fa-facebook-f bg-white rounded-circle"></i>
+                    <i class="fa-brands fa-twitter bg-white rounded-circle"></i>
+                    <i class="fa-brands fa-instagram bg-white rounded-circle"></i>
+                    <i class="fa-brands fa-dribbble bg-white rounded-circle"></i>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg bg-white px-5 z-2 sticky-top w-100">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="assets/images/logo/logo.png" alt=""></a>
+                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        MENU
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto text-dark fw-bold gap-4 small me-3">
+                            <li class="nav-item p-0 m-0">
+                                <a class="nav-link selected p-0 m-0" style="color: var(--primary) !important;"
+                                    aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item p-0 m-0">
+                                <a class="nav-link p-0 m-0" href="#">About</a>
+                            </li>
+                            <li class="nav-item p-0 m-0">
+                                <a class="nav-link p-0 m-0" href="#">Groomers</a>
+                            </li>
+                            <li class="nav-item p-0 m-0">
+                                <a class="nav-link p-0 m-0" href="#">Services</a>
+                            </li>
+                            <li class="nav-item p-0 m-0">
+                                <a class="nav-link p-0 m-0" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item p-0 m-0">
+                                <a class="nav-link p-0 m-0" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item p-0 m-0">
+                                <a class="nav-link p-0 m-0" href="#">Contact us</a>
+                            </li>
+                        </ul>
+                        <button class="btn rounded-0 px-3 fw-bold small py-3 text-white"
+                            style="background-color: var(--primary);">Free Consultation</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="hero-cont container mt-5" style="padding-top: 120px;">
+            <h1 class="fw-bold text-dark" style="font-size: 2.5rem !important;">The Kind of Care <br> Your Pets Deserve
+            </h1>
+            <p class="text-body-tertiary w-75 lh-lg">Far far away, behind the word mountains, far from the countries
+                Vokalia <br> and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+            <button class="btn px-4 mb-2 py-3 small text-white" style="background-color: var(--primary);">Make an
+                appoinment</button>
+            <button class="btn px-4 py-3 mb-2 small fw-bold text-white" id="greener">11-234-5678-9102</button>
+        </div>
+    </div>
+    <div class="services-cards d-flex justify-content-center align-items-center gap-3 flex-wrap">
+        <div class="service-card bg-white px-3 py-4 rounded-1 d-flex justify-content-center align-items-start">
+            <i class="fa-solid fa-stethoscope fs-2" style="color: var(--primary);"></i>
+            <div class="sc-cont ms-4">
+                <h4 class="fw-bold">Veterinary Service</h4>
+                <p class="text-body-tertiary fs-6">Far far away, behind the word mountains.</p>
+            </div>
+        </div>
+        <div class="service-card bg-white px-3 py-4 rounded-1 d-flex justify-content-center align-items-start">
+            <i class="fa-solid fa-bath fs-2" style="color: var(--primary);"></i>
+            <div class="sc-cont ms-4">
+                <h4 class="fw-bold">Pet Grooming</h4>
+                <p class="text-body-tertiary fs-6">Far far away, behind the word mountains.</p>
+            </div>
+        </div>
+        <div class="service-card bg-white px-3 py-4 rounded-1 d-flex justify-content-center align-items-start">
+            <i class="fa-solid fa-cat fs-2" style="color: var(--primary);"></i>
+            <div class="sc-cont ms-4">
+                <h4 class="fw-bold">Pet Setting</h4>
+                <p class="text-body-tertiary fs-6">Far far away, behind the word mountains.</p>
+            </div>
+        </div>
+    </div>
+    <div class="about-section d-flex justify-content-center align-items-center gap-5 flex-lg-nowrap flex-wrap">
+        <div class="as-img w-100"></div>
+        <div class="as-cont d-flex flex-column gap-3">
+            <span class="text-uppercase fw-bold small" style="color: var(--primary);">Welcome to Petvet</span>
+            <h1 class="fw-bold">We Are Best Agency <br>
+                For Your Pets</h1>
+            <p class="text-body-tertiary lh-lg fs-6 w-75">A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly
+                into your mouth. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+            </p>
+            <div class="qualities-checklist d-flex flex-column gap-3">
+                <div class="checklist d-flex gap-3 align-items-center">
+                    <i class="fa-solid fa-stethoscope fs-4 rounded-2 text-white py-2 px-4 d-flex justify-content-center align-items-center"
+                        style="background-color: var(--primary);"></i>
+                    <h5 class="fw-bold">Qualified Groomer</h5>
+                </div>
+                <div class="checklist d-flex gap-3 align-items-center">
+                    <i class="fa-solid fa-stethoscope fs-4 rounded-2 text-white py-2 px-4 d-flex justify-content-center align-items-center"
+                        style="background-color: var(--primary);"></i>
+                    <h5 class="fw-bold">Over 20 Years of Experienced</h5>
+                </div>
+                <div class="checklist d-flex gap-3 align-items-center">
+                    <i class="fa-solid fa-stethoscope fs-4 rounded-2 text-white py-2 px-4 d-flex justify-content-center align-items-center"
+                        style="background-color: var(--primary);"></i>
+                    <h5 class="fw-bold">Animal Lover</h5>
+                </div>
+                <div class="checklist d-flex gap-3 align-items-center">
+                    <i class="fa-solid fa-stethoscope fs-4 rounded-2 text-white py-2 px-4 d-flex justify-content-center align-items-center"
+                        style="background-color: var(--primary);"></i>
+                    <h5 class="fw-bold">Best Pet Care</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="appoinment-section text-center container">
+        <span class="text-uppercase fw-bold small text-center" style="color: var(--primary);">Make An Appointment</span>
+        <div class="appoin-form d-flex justify-content-center align-items-center flex-wrap gap-4 mt-3">
+            <input type="text" name="first_name" id="first_name" placeholder="First Name">
+            <input type="text" name="last_name" id="last_name" placeholder="Last Name">
+            <div class="input-group w-auto">
+                <select name="services" id="services">
+                    <option value="default">Select Your Services</option>
+                    <option value="pet-adopt">Pet Adoption</option>
+                    <option value="pet-groom">Pet Grooming</option>
+                    <option value="vaccination">Vaccination</option>
+                    <option value="dog-training">Dog Training</option>
+                    <option value="pet-day-care">Pet Daycare</option>
+                    <option value="pet-sitter">Pet Sitter</option>
+                    <option value="help">Veterinary Help</option>
+                </select>
+                <span class="input-group-text rounded-0 bg-transparent" id="basic-addon1"><i
+                        class="fa-solid fa-angle-down text-body-tertiary"></i></span>
+            </div>
+            <input type="number" name="phone" id="phone" placeholder="Phone">
+            <div class="input-group w-auto">
+                <input type="text" name="date" id="date" placeholder="Date"
+                    style="padding-right: 0px; border-right: 0px solid transparent !important;">
+                <span class="input-group-text rounded-0 bg-transparent" id="basic-addon1"><i
+                        class="fa-solid fa-calendar-days text-body-tertiary"></i></span>
+            </div>
+            <div class="input-group w-auto">
+                <input type="text" name="time" id="time" placeholder="Time"
+                    style="padding-right: 0px; border-right: 0px solid transparent !important;">
+                <span class="input-group-text rounded-0 bg-transparent" id="basic-addon1"><i
+                        class="fa-regular fa-clock text-body-tertiary"></i></span>
+            </div>
+            <textarea name="message" id="message" placeholder="Message" class="pt-2"></textarea>
+            <button class="btn py-3 small text-white">Appoinment</button>
+        </div>
+    </div>
+    <div class="groomers-section">
+        <div class="text-uppercase fw-bold small text-center" style="color: var(--primary);">Groomers</div>
+        <h1 class="fw-bold mt-2 text-center">Our Groomers</h1>
+        <div class="groomer-cards container flex-wrap gap-3 d-flex justify-content-center align-items-center"
+            style="margin-top: 140px;">
+            <div class="gc d-flex position-relative justify-content-center align-items-center flex-column">
+                <div class="gc-img position-absolute rounded-circle border-5 border border-white"
+                    style="background-image: url(assets/images/groomers/g-1.png); background-size: cover; background-position: center;">
+                </div>
+                <div class="gc-cont mt-5 text-center">
+                    <h5 class="fw-bold mt-3">Lloyd Wilson</h5>
+                    <div class="text-uppercase mt-2 fw-bold small text-center" style="color: var(--primary);">Ceo,
+                        Founder</div>
+                    <div class="gc-social mt-2 d-flex gap-3">
+                        <i class="fa-brands fa-twitter text-white px-3 rounded-2 d-flex justify-content-center align-items-center py-2"
+                            style="background-color: var(--primary);"></i>
+                        <i class="fa-brands fa-facebook-f text-white px-3 rounded-2 d-flex justify-content-center align-items-center py-2"
+                            style="background-color: var(--primary);"></i>
+                        <i class="fa-brands fa-google text-white px-3 rounded-2 d-flex justify-content-center align-items-center py-2"
+                            style="background-color: var(--primary);"></i>
+                        <i class="fa-brands fa-instagram text-white px-3 rounded-2 d-flex justify-content-center align-items-center py-2"
+                            style="background-color: var(--primary);"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="gc d-flex position-relative justify-content-center align-items-center flex-column">
+                <div class="gc-img position-absolute rounded-circle border-5 border border-white"
+                    style="background-image: url(assets/images/groomers/g-2.png); background-size: cover; background-position: center;">
+                </div>
+                <div class="gc-cont mt-5 text-center">
+                    <h5 class="fw-bold mt-3">Lloyd Wilson</h5>
+                    <div class="text-uppercase mt-2 fw-bold small text-center" style="color: var(--primary);">Ceo,
+                        Founder</div>
+                    <div class="gc-social mt-2 d-flex gap-3">
+                        <i class="fa-brands fa-twitter text-white px-3 rounded-2 d-flex justify-content-center align-items-center py-2"
+                            style="background-color: var(--primary);"></i>
+                        <i class="fa-brands fa-facebook-f text-white px-3 rounded-2 d-flex justify-content-center align-items-center py-2"
+                            style="background-color: var(--primary);"></i>
+                        <i class="fa-brands fa-google text-white px-3 rounded-2 d-flex justify-content-center align-items-center py-2"
+                            style="background-color: var(--primary);"></i>
+                        <i class="fa-brands fa-instagram text-white px-3 rounded-2 d-flex justify-content-center align-items-center py-2"
+                            style="background-color: var(--primary);"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="gc d-flex position-relative justify-content-center align-items-center flex-column">
+                <div class="gc-img position-absolute rounded-circle border-5 border border-white"
+                    style="background-image: url(assets/images/groomers/g-3.png); background-size: cover; background-position: center;">
+                </div>
+                <div class="gc-cont mt-5 text-center">
+                    <h5 class="fw-bold mt-3">Lloyd Wilson</h5>
+                    <div class="text-uppercase mt-2 fw-bold small text-center" style="color: var(--primary);">Ceo,
+                        Founder</div>
+                    <div class="gc-social mt-2 d-flex gap-3">
+                        <i class="fa-brands fa-twitter text-white px-3 rounded-2 d-flex justify-content-center align-items-center py-2"
+                            style="background-color: var(--primary);"></i>
+                        <i class="fa-brands fa-facebook-f text-white px-3 rounded-2 d-flex justify-content-center align-items-center py-2"
+                            style="background-color: var(--primary);"></i>
+                        <i class="fa-brands fa-google text-white px-3 rounded-2 d-flex justify-content-center align-items-center py-2"
+                            style="background-color: var(--primary);"></i>
+                        <i class="fa-brands fa-instagram text-white px-3 rounded-2 d-flex justify-content-center align-items-center py-2"
+                            style="background-color: var(--primary);"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="gc d-flex position-relative justify-content-center align-items-center flex-column">
+                <div class="gc-img position-absolute rounded-circle border-5 border border-white"
+                    style="background-image: url(assets/images/groomers/g-4.png); background-size: cover; background-position: center;">
+                </div>
+                <div class="gc-cont mt-5 text-center">
+                    <h5 class="fw-bold mt-3">Lloyd Wilson</h5>
+                    <div class="text-uppercase mt-2 fw-bold small text-center" style="color: var(--primary);">Ceo,
+                        Founder</div>
+                    <div class="gc-social mt-2 d-flex gap-3">
+                        <i class="fa-brands fa-twitter text-white px-3 rounded-2 d-flex justify-content-center align-items-center py-2"
+                            style="background-color: var(--primary);"></i>
+                        <i class="fa-brands fa-facebook-f text-white px-3 rounded-2 d-flex justify-content-center align-items-center py-2"
+                            style="background-color: var(--primary);"></i>
+                        <i class="fa-brands fa-google text-white px-3 rounded-2 d-flex justify-content-center align-items-center py-2"
+                            style="background-color: var(--primary);"></i>
+                        <i class="fa-brands fa-instagram text-white px-3 rounded-2 d-flex justify-content-center align-items-center py-2"
+                            style="background-color: var(--primary);"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="testinomials-section d-flex flex-column justify-content-center align-items-center">
+        <div
+            class="ts-head z-1 d-flex flex-column justify-content-center w-100 text-center flex-wrap align-items-center">
+            <div class="text-uppercase fw-bold small text-center text-white">Read testimonials</div>
+            <h1 class="fw-bold text-white text-center">happy Customers Says</h1>
+        </div>
+        <div class="ts-body z-1 mt-5">
+            <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex gap-3 flex-wrap justify-content-center">
+                            <div
+                                class="card px-3 py-3 border-0 px-0 d-flex justify-content-center align-items-start flex-row">
+                                <img src="assets/images/testinomial/person_1.png" class="rounded-circle" alt="...">
+                                <div
+                                    class="card-body w-100 bg-white d-flex flex-column justify-content-center align-items-start gap-3">
+                                    <p class="fs-6 text-body-tertiary lh-lg m-0">Far far away, behind the word
+                                        mountains, far from the countries Vokalia
+                                    </p>
+                                    <h5 class="card-title fw-bold m-0">Lloyd Gomez</h5>
+                                    <div class="text-uppercase fw-bold small text-center"
+                                        style="color: var(--primary);">Customer</div>
+                                </div>
+                            </div>
+                            <div
+                                class="card px-3 py-3 border-0 px-0 d-flex justify-content-center align-items-start flex-row">
+                                <img src="assets/images/testinomial/person_2.png" class="rounded-circle" alt="...">
+                                <div
+                                    class="card-body w-100 bg-white d-flex flex-column justify-content-center align-items-start gap-3">
+                                    <p class="fs-6 text-body-tertiary lh-lg m-0">Far far away, behind the word
+                                        mountains, far from the countries Vokalia
+                                    </p>
+                                    <h5 class="card-title fw-bold m-0">Lloyd Gomez</h5>
+                                    <div class="text-uppercase fw-bold small text-center"
+                                        style="color: var(--primary);">Customer</div>
+                                </div>
+                            </div>
+                            <div
+                                class="card px-3 py-3 border-0 px-0 d-flex justify-content-center align-items-start flex-row">
+                                <img src="assets/images/testinomial/person_3.png" class="rounded-circle" alt="...">
+                                <div
+                                    class="card-body w-100 bg-white d-flex flex-column justify-content-center align-items-start gap-3">
+                                    <p class="fs-6 text-body-tertiary lh-lg m-0">Far far away, behind the word
+                                        mountains, far from the countries Vokalia
+                                    </p>
+                                    <h5 class="card-title fw-bold m-0">Lloyd Gomez</h5>
+                                    <div class="text-uppercase fw-bold small text-center"
+                                        style="color: var(--primary);">Customer</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="d-flex gap-3 flex-wrap justify-content-center">
+                            <div
+                                class="card px-3 py-3 border-0 px-0 d-flex justify-content-center align-items-start flex-row">
+                                <img src="assets/images/testinomial/person_2.png" class="rounded-circle" alt="...">
+                                <div
+                                    class="card-body w-100 bg-white d-flex flex-column justify-content-center align-items-start gap-3">
+                                    <p class="fs-6 text-body-tertiary lh-lg m-0">Far far away, behind the word
+                                        mountains, far from the countries Vokalia
+                                    </p>
+                                    <h5 class="card-title fw-bold m-0">Lloyd Gomez</h5>
+                                    <div class="text-uppercase fw-bold small text-center"
+                                        style="color: var(--primary);">Customer</div>
+                                </div>
+                            </div>
+                            <div
+                                class="card px-3 py-3 border-0 px-0 d-flex justify-content-center align-items-start flex-row">
+                                <img src="assets/images/testinomial/person_3.png" class="rounded-circle" alt="...">
+                                <div
+                                    class="card-body w-100 bg-white d-flex flex-column justify-content-center align-items-start gap-3">
+                                    <p class="fs-6 text-body-tertiary lh-lg m-0">Far far away, behind the word
+                                        mountains, far from the countries Vokalia
+                                    </p>
+                                    <h5 class="card-title fw-bold m-0">Lloyd Gomez</h5>
+                                    <div class="text-uppercase fw-bold small text-center"
+                                        style="color: var(--primary);">Customer</div>
+                                </div>
+                            </div>
+                            <div
+                                class="card px-3 py-3 border-0 px-0 d-flex justify-content-center align-items-start flex-row">
+                                <img src="assets/images/testinomial/person_1.png" class="rounded-circle" alt="...">
+                                <div
+                                    class="card-body w-100 bg-white d-flex flex-column justify-content-center align-items-start gap-3">
+                                    <p class="fs-6 text-body-tertiary lh-lg m-0">Far far away, behind the word
+                                        mountains, far from the countries Vokalia
+                                    </p>
+                                    <h5 class="card-title fw-bold m-0">Lloyd Gomez</h5>
+                                    <div class="text-uppercase fw-bold small text-center"
+                                        style="color: var(--primary);">Customer</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex gap-3 flex-wrap justify-content-center">
+                            <div
+                                class="card px-3 py-3 border-0 px-0 d-flex justify-content-center align-items-start flex-row">
+                                <img src="assets/images/testinomial/person_3.png" class="rounded-circle" alt="...">
+                                <div
+                                    class="card-body w-100 bg-white d-flex flex-column justify-content-center align-items-start gap-3">
+                                    <p class="fs-6 text-body-tertiary lh-lg m-0">Far far away, behind the word
+                                        mountains, far from the countries Vokalia
+                                    </p>
+                                    <h5 class="card-title fw-bold m-0">Lloyd Gomez</h5>
+                                    <div class="text-uppercase fw-bold small text-center"
+                                        style="color: var(--primary);">Customer</div>
+                                </div>
+                            </div>
+                            <div
+                                class="card px-3 py-3 border-0 px-0 d-flex justify-content-center align-items-start flex-row">
+                                <img src="assets/images/testinomial/person_1.png" class="rounded-circle" alt="...">
+                                <div
+                                    class="card-body w-100 bg-white d-flex flex-column justify-content-center align-items-start gap-3">
+                                    <p class="fs-6 text-body-tertiary lh-lg m-0">Far far away, behind the word
+                                        mountains, far from the countries Vokalia
+                                    </p>
+                                    <h5 class="card-title fw-bold m-0">Lloyd Gomez</h5>
+                                    <div class="text-uppercase fw-bold small text-center"
+                                        style="color: var(--primary);">Customer</div>
+                                </div>
+                            </div>
+                            <div
+                                class="card px-3 py-3 border-0 px-0 d-flex justify-content-center align-items-start flex-row">
+                                <img src="assets/images/testinomial/person_2.png" class="rounded-circle" alt="...">
+                                <div
+                                    class="card-body w-100 bg-white d-flex flex-column justify-content-center align-items-start gap-3">
+                                    <p class="fs-6 text-body-tertiary lh-lg m-0">Far far away, behind the word
+                                        mountains, far from the countries Vokalia
+                                    </p>
+                                    <h5 class="card-title fw-bold m-0">Lloyd Gomez</h5>
+                                    <div class="text-uppercase fw-bold small text-center"
+                                        style="color: var(--primary);">Customer</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex gap-3 flex-wrap justify-content-center">
+                            <div
+                                class="card px-3 py-3 border-0 px-0 d-flex justify-content-center align-items-start flex-row">
+                                <img src="assets/images/testinomial/person_1.png" class="rounded-circle" alt="...">
+                                <div
+                                    class="card-body w-100 bg-white d-flex flex-column justify-content-center align-items-start gap-3">
+                                    <p class="fs-6 text-body-tertiary lh-lg m-0">Far far away, behind the word
+                                        mountains, far from the countries Vokalia
+                                    </p>
+                                    <h5 class="card-title fw-bold m-0">Lloyd Gomez</h5>
+                                    <div class="text-uppercase fw-bold small text-center"
+                                        style="color: var(--primary);">Customer</div>
+                                </div>
+                            </div>
+                            <div
+                                class="card px-3 py-3 border-0 px-0 d-flex justify-content-center align-items-start flex-row">
+                                <img src="assets/images/testinomial/person_2.png" class="rounded-circle" alt="...">
+                                <div
+                                    class="card-body w-100 bg-white d-flex flex-column justify-content-center align-items-start gap-3">
+                                    <p class="fs-6 text-body-tertiary lh-lg m-0">Far far away, behind the word
+                                        mountains, far from the countries Vokalia
+                                    </p>
+                                    <h5 class="card-title fw-bold m-0">Lloyd Gomez</h5>
+                                    <div class="text-uppercase fw-bold small text-center"
+                                        style="color: var(--primary);">Customer</div>
+                                </div>
+                            </div>
+                            <div
+                                class="card px-3 py-3 border-0 px-0 d-flex justify-content-center align-items-start flex-row">
+                                <img src="assets/images/testinomial/person_1.png" class="rounded-circle" alt="...">
+                                <div
+                                    class="card-body w-100 bg-white d-flex flex-column justify-content-center align-items-start gap-3">
+                                    <p class="fs-6 text-body-tertiary lh-lg m-0">Far far away, behind the word
+                                        mountains, far from the countries Vokalia
+                                    </p>
+                                    <h5 class="card-title fw-bold m-0">Lloyd Gomez</h5>
+                                    <div class="text-uppercase fw-bold small text-center"
+                                        style="color: var(--primary);">Customer</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex gap-3 flex-wrap justify-content-center">
+                            <div
+                                class="card px-3 py-3 border-0 px-0 d-flex justify-content-center align-items-start flex-row">
+                                <img src="assets/images/testinomial/person_2.png" class="rounded-circle" alt="...">
+                                <div
+                                    class="card-body w-100 bg-white d-flex flex-column justify-content-center align-items-start gap-3">
+                                    <p class="fs-6 text-body-tertiary lh-lg m-0">Far far away, behind the word
+                                        mountains, far from the countries Vokalia
+                                    </p>
+                                    <h5 class="card-title fw-bold m-0">Lloyd Gomez</h5>
+                                    <div class="text-uppercase fw-bold small text-center"
+                                        style="color: var(--primary);">Customer</div>
+                                </div>
+                            </div>
+                            <div
+                                class="card px-3 py-3 border-0 px-0 d-flex justify-content-center align-items-start flex-row">
+                                <img src="assets/images/testinomial/person_1.png" class="rounded-circle" alt="...">
+                                <div
+                                    class="card-body w-100 bg-white d-flex flex-column justify-content-center align-items-start gap-3">
+                                    <p class="fs-6 text-body-tertiary lh-lg m-0">Far far away, behind the word
+                                        mountains, far from the countries Vokalia
+                                    </p>
+                                    <h5 class="card-title fw-bold m-0">Lloyd Gomez</h5>
+                                    <div class="text-uppercase fw-bold small text-center"
+                                        style="color: var(--primary);">Customer</div>
+                                </div>
+                            </div>
+                            <div
+                                class="card px-3 py-3 border-0 px-0 d-flex justify-content-center align-items-start flex-row">
+                                <img src="assets/images/testinomial/person_2.png" class="rounded-circle" alt="...">
+                                <div
+                                    class="card-body w-100 bg-white d-flex flex-column justify-content-center align-items-start gap-3">
+                                    <p class="fs-6 text-body-tertiary lh-lg m-0">Far far away, behind the word
+                                        mountains, far from the countries Vokalia
+                                    </p>
+                                    <h5 class="card-title fw-bold m-0">Lloyd Gomez</h5>
+                                    <div class="text-uppercase fw-bold small text-center"
+                                        style="color: var(--primary);">Customer</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center mt-4">
+                    <div class="carousel-indicators position-static mt-4">
+                        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0"
+                            class="active rounded-circle" aria-cusmallt="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1"
+                            class="rounded-circle" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2"
+                            class="rounded-circle" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="3"
+                            class="rounded-circle" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="4"
+                            class="rounded-circle" aria-label="Slide 5"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="plans-section d-flex justify-content-center align-items-center flex-column">
+        <div class="plans-head d-flex gap-3 justify-content-center flex-column align-items-center text-center">
+            <div class="text-uppercase fw-bold small text-center" style="color: var(--primary);">Pricing</div>
+            <h1 class="fw-bold">Affordable Packages</h1>
+        </div>
+        <div class="plans-body mt-5 d-flex row w-100 justify-content-center align-items-center gap-4">
+            <div class="card p-0 pb-4 border-0 col-lg-4 col-12 rounded-0 text-center" style="width: 21rem;">
+                <img src="assets/images/plans/plans-1.png" class="card-img-top rounded-3 w-100" alt="...">
+                <div class="card-body gap-3 d-flex justify-content-center p-0 align-items-center flex-column">
+                    <div class="text-uppercase mt-3 fw-bold small text-center" style="color: var(--primary);">Basic
+                    </div>
+                    <h1 class="card-title fw-bold" style="color: var(--primary);"><sup
+                            class="fs-4 text-body-tertiary">$</sup> 49<sub class="fs-6 text-body-tertiary">/mos</sub>
+                    </h1>
+                </div>
+                <ul class="list-group mt-2 list-group-flush border-0 gap-3">
+                    <li class="list-group-item bg-body-tertiary mx-3 py-3 border-0"><i
+                            class="fa-solid fa-check fw-bold fs-5" style="color: var(--primary);"></i> 5 Dog Walk</li>
+                    <li class="list-group-item py-3 border-0"><i class="fa-solid fa-check fw-bold fs-5"
+                            style="color: var(--primary);"></i> 3 Vet Visit</li>
+                    <li class="list-group-item py-3 bg-body-tertiary mx-3 border-0"><i
+                            class="fa-solid fa-check fw-bold fs-5" style="color: var(--primary);"></i> 3 Pet Spa</li>
+                    <li class="list-group-item py-3 border-0"><i class="fa-solid fa-check fw-bold fs-5"
+                            style="color: var(--primary);"></i> Free Supports</li>
+                </ul>
+                <button style="background-color: var(--primary);"
+                    class="btn w-75 mx-auto mt-3 z-1 text-white small position-relative py-3">Get Started
+                    Now</button>
+            </div>
+            <div class="card p-0 pb-4 border-0 col-lg-4 col-12 rounded-0 text-center" style="width: 21rem;">
+                <img src="assets/images/plans/plans-2.png" class="card-img-top rounded-3 w-100" alt="...">
+                <div class="card-body gap-3 d-flex justify-content-center p-0 align-items-center flex-column">
+                    <div class="text-uppercase mt-3 fw-bold small text-center" style="color: var(--primary);">Personal
+                    </div>
+                    <h1 class="card-title fw-bold" style="color: var(--primary);"><sup
+                            class="fs-4 text-body-tertiary">$</sup> 79 <sub class="fs-6 text-body-tertiary">/mos</sub>
+                    </h1>
+                </div>
+                <ul class="list-group mt-2 list-group-flush border-0 gap-3">
+                    <li class="list-group-item bg-body-tertiary mx-3 py-3 border-0"><i
+                            class="fa-solid fa-check fw-bold fs-5" style="color: var(--primary);"></i> 5 Dog Walk</li>
+                    <li class="list-group-item py-3 border-0"><i class="fa-solid fa-check fw-bold fs-5"
+                            style="color: var(--primary);"></i> 3 Vet Visit</li>
+                    <li class="list-group-item py-3 bg-body-tertiary mx-3 border-0"><i
+                            class="fa-solid fa-check fw-bold fs-5" style="color: var(--primary);"></i> 3 Pet Spa</li>
+                    <li class="list-group-item py-3 border-0"><i class="fa-solid fa-check fw-bold fs-5"
+                            style="color: var(--primary);"></i> Free Supports</li>
+                </ul>
+                <button style="background-color: var(--primary);"
+                    class="btn w-75 mx-auto mt-3 z-1 text-white small position-relative py-3">Get Started
+                    Now</button>
+            </div>
+            <div class="card p-0 pb-4 border-0 col-lg-4 col-12 rounded-0 text-center" style="width: 21rem;">
+                <img src="assets/images/plans/plans-3.png" class="card-img-top rounded-3 w-100" alt="...">
+                <div class="card-body gap-3 d-flex justify-content-center p-0 align-items-center flex-column">
+                    <div class="text-uppercase mt-3 fw-bold small text-center" style="color: var(--primary);">Business
+                    </div>
+                    <h1 class="card-title fw-bold" style="color: var(--primary);"><sup
+                            class="fs-4 text-body-tertiary">$</sup> 109<sub class="fs-6 text-body-tertiary">/mos</sub>
+                    </h1>
+                </div>
+                <ul class="list-group mt-2 list-group-flush border-0 gap-3">
+                    <li class="list-group-item bg-body-tertiary mx-3 py-3 border-0"><i
+                            class="fa-solid fa-check fw-bold fs-5" style="color: var(--primary);"></i> 5 Dog Walk</li>
+                    <li class="list-group-item py-3 border-0"><i class="fa-solid fa-check fw-bold fs-5"
+                            style="color: var(--primary);"></i> 3 Vet Visit</li>
+                    <li class="list-group-item py-3 bg-body-tertiary mx-3 border-0"><i
+                            class="fa-solid fa-check fw-bold fs-5" style="color: var(--primary);"></i> 3 Pet Spa</li>
+                    <li class="list-group-item py-3 border-0"><i class="fa-solid fa-check fw-bold fs-5"
+                            style="color: var(--primary);"></i> Free Supports</li>
+                </ul>
+                <button style="background-color: var(--primary);"
+                    class="btn w-75 mx-auto mt-3 z-1 text-white small position-relative py-3">Get Started
+                    Now</button>
+            </div>
+            <div class="card p-0 pb-4 border-0 col-lg-4 col-12 rounded-0 text-center" style="width: 21rem;">
+                <img src="assets/images/plans/plans-4.png" class="card-img-top rounded-3 w-100" alt="...">
+                <div class="card-body gap-3 d-flex justify-content-center p-0 align-items-center flex-column">
+                    <div class="text-uppercase mt-3 fw-bold small text-center" style="color: var(--primary);">Exclusive
+                    </div>
+                    <h1 class="card-title fw-bold" style="color: var(--primary);"><sup
+                            class="fs-4 text-body-tertiary">$</sup> 109 <sub class="fs-6 text-body-tertiary">/mos</sub>
+                    </h1>
+                </div>
+                <ul class="list-group mt-2 list-group-flush border-0 gap-3">
+                    <li class="list-group-item bg-body-tertiary mx-3 py-3 border-0"><i
+                            class="fa-solid fa-check fw-bold fs-5" style="color: var(--primary);"></i> 5 Dog Walk</li>
+                    <li class="list-group-item py-3 border-0"><i class="fa-solid fa-check fw-bold fs-5"
+                            style="color: var(--primary);"></i> 3 Vet Visit</li>
+                    <li class="list-group-item py-3 bg-body-tertiary mx-3 border-0"><i
+                            class="fa-solid fa-check fw-bold fs-5" style="color: var(--primary);"></i> 3 Pet Spa</li>
+                    <li class="list-group-item py-3 border-0"><i class="fa-solid fa-check fw-bold fs-5"
+                            style="color: var(--primary);"></i> Free Supports</li>
+                </ul>
+                <button style="background-color: var(--primary);"
+                    class="btn w-75 mx-auto mt-3 z-1 text-white small position-relative py-3">Get Started
+                    Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="blog-section d-flex justify-content-center align-items-center flex-column">
+        <div class="blog-head">
+            <div class="text-uppercase fw-bold small text-center" style="color: var(--primary);">Blog Updates</div>
+            <h1 class="fw-bold mt-3">Latest Blog Updates</h1>
+        </div>
+        <div class="blog-body mt-5 d-flex flex-wrap justify-content-center align-items-center gap-4">
+            <div class="card border-0 rounded-0" style="width: 23rem;">
+                <img src="assets/images/blogs/blog-1.png" class="card-img-top rounded-0" alt="...">
+                <div class="card-body d-flex align-items-start justify-content-center gap-4 mt-3">
+                    <div class="blog-set d-flex gap-2 flex-column small text-end" style="color: var(--primary);">
+                        <span>
+                            <i class="fa-regular fa-calendar-days me-2"></i>
+                            Aug. 12, 2020
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-user me-1"></i>
+                            ADMIN
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-comment me-2"></i>
+                            3
+                        </span>
+                    </div>
+                    <div class="blog">
+                        <h5 class="card-title fw-bold">Shelter and Feed Animals that Are in Need</h5>
+                        <p class="card-text mt-3 text-body-tertiary lh-lg">Far far away, behind the word mountains</p>
+                        <button class="rounded-2 text-white border-0 small px-3 py-2"
+                            style="background-color: var(--primary);">Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-0 rounded-0" style="width: 23rem;">
+                <img src="assets/images/blogs/blog-2.png" class="card-img-top rounded-0" alt="...">
+                <div class="card-body d-flex align-items-start justify-content-center gap-4 mt-3">
+                    <div class="blog-set d-flex gap-2 flex-column small text-end" style="color: var(--primary);">
+                        <span>
+                            <i class="fa-regular fa-calendar-days me-2"></i>
+                            Aug. 12, 2020
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-user me-1"></i>
+                            ADMIN
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-comment me-2"></i>
+                            3
+                        </span>
+                    </div>
+                    <div class="blog">
+                        <h5 class="card-title fw-bold">Shelter and Feed Animals that Are in Need</h5>
+                        <p class="card-text mt-3 text-body-tertiary lh-lg">Far far away, behind the word mountains</p>
+                        <button class="rounded-2 text-white border-0 small px-3 py-2"
+                            style="background-color: var(--primary);">Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-0 rounded-0" style="width: 23rem;">
+                <img src="assets/images/blogs/blog-3.png" class="card-img-top rounded-0" alt="...">
+                <div class="card-body d-flex align-items-start justify-content-center gap-4 mt-3">
+                    <div class="blog-set d-flex gap-2 flex-column small text-end" style="color: var(--primary);">
+                        <span>
+                            <i class="fa-regular fa-calendar-days me-2"></i>
+                            Aug. 12, 2020
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-user me-1"></i>
+                            ADMIN
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-comment me-2"></i>
+                            3
+                        </span>
+                    </div>
+                    <div class="blog">
+                        <h5 class="card-title fw-bold">Shelter and Feed Animals that Are in Need</h5>
+                        <p class="card-text mt-3 text-body-tertiary lh-lg">Far far away, behind the word mountains</p>
+                        <button class="rounded-2 text-white border-0 small px-3 py-2"
+                            style="background-color: var(--primary);">Read more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="position-relative w-100 d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-start gap-3">
+        <div class="col-lg-3 me-4 col-12 mt-5 d-flex flex-column justify-content-center align-items-start gap-3">
+            <img src="assets/images/logo/footer.png" alt="">
+            <p class="text-body-tertiary lh-lg">Far far away, behind the word mountains, far from the countries.</p>
+            <div class="social-icons text-white gap-3 d-flex">
+                <i class="fa-brands fa-twitter px-3 py-3 rounded-2 small" style="background-color: var(--primary);"></i>
+                <i class="fa-brands fa-facebook-f px-3 py-3 rounded-2 small" style="background-color: var(--primary);"></i>
+                <i class="fa-brands fa-instagram px-3 py-3 rounded-2 small" style="background-color: var(--primary);"></i>
+            </div>
+        </div>
+        <div class="col-lg-3 col-12 mt-5">
+            <h5 class="fw-bold text-uppercase">Services</h5>
+            <div class="sep"></div>
+            <ul class="list-group bg-transparent border-0 rounded-0 p-0 gap-3 mt-5">
+                <li class="list-group-item bg-transparent border-0 p-0"><i class="fa-solid fa-angle-right" style="color: var(--primary);"></i> Pet Adoption</li>
+                <li class="list-group-item bg-transparent border-0 p-0"><i class="fa-solid fa-angle-right" style="color: var(--primary);"></i> Pet Grooming</li>
+                <li class="list-group-item bg-transparent border-0 p-0"><i class="fa-solid fa-angle-right" style="color: var(--primary);"></i> Vaccination</li>
+                <li class="list-group-item bg-transparent border-0 p-0"><i class="fa-solid fa-angle-right" style="color: var(--primary);"></i> Dog Traning</li>
+                <li class="list-group-item bg-transparent border-0 p-0"><i class="fa-solid fa-angle-right" style="color: var(--primary);"></i> Pet Daycare</li>
+                <li class="list-group-item bg-transparent border-0 p-0"><i class="fa-solid fa-angle-right" style="color: var(--primary);"></i> Pet Sitter</li>
+                <li class="list-group-item bg-transparent border-0 p-0"><i class="fa-solid fa-angle-right" style="color: var(--primary);"></i> Veterinary Help</li>
+            </ul>
+        </div>
+        <div class="col-lg-3 col-12 mt-5 align-self-start">
+            <h5 class="fw-bold text-uppercase">Links</h5>
+            <div class="sep"></div>
+            <ul class="list-group bg-transparent border-0 rounded-0 p-0 gap-3 mt-5">
+                <li class="list-group-item bg-transparent border-0 p-0"><i class="fa-solid fa-angle-right" style="color: var(--primary);"></i> Home</li>
+                <li class="list-group-item bg-transparent border-0 p-0"><i class="fa-solid fa-angle-right" style="color: var(--primary);"></i> About</li>
+                <li class="list-group-item bg-transparent border-0 p-0"><i class="fa-solid fa-angle-right" style="color: var(--primary);"></i> Services</li>
+                <li class="list-group-item bg-transparent border-0 p-0"><i class="fa-solid fa-angle-right" style="color: var(--primary);"></i> Groomer</li>
+                <li class="list-group-item bg-transparent border-0 p-0"><i class="fa-solid fa-angle-right" style="color: var(--primary);"></i> Blog</li>
+                <li class="list-group-item bg-transparent border-0 p-0"><i class="fa-solid fa-angle-right" style="color: var(--primary);"></i> Pricing</li>
+                <li class="list-group-item bg-transparent border-0 p-0"><i class="fa-solid fa-angle-right" style="color: var(--primary);"></i> Contact</li>
+            </ul>
+        </div>
+        <div class="col-lg-3 col-12 mt-5 align-self-start d-flex flex-column justify-content-center">
+            <h5 class="fw-bold text-uppercase">Have a Questions?</h5>
+            <div class="sep"></div>
+            <p class="mt-4 lh-lg text-body-tertiary fs-6"><i class="fa-solid fa-location-dot me-2"></i> 203 Fake St. Mountain View, San Francisco, California, USA</p>
+            <span class="small" style="color: var(--primary);"><i class="fa-solid fa-phone me-2"></i> +2 392 3929 210</span>
+            <span class="small mt-4" style="color: var(--primary);"><i class="fa-solid fa-paper-plane me-2"></i> info@yourdomain.com</span>
+        </div>
+    </footer>
+    <div class="bottom-footer px-5 py-5 text-center bg-black text-secondary">
+        <p>Copyright &copy; 2025 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i> by <span class="text-white text-decoration-underline">Colorlib</span></p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
