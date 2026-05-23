@@ -1,0 +1,325 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(assets/fonts/Roboto-Regular.ttf);
+}
+
+:root {
+    --font: "Roboto";
+    --primary: #FD4C82;
+    --secondary: #91c235;
+}
+
+body {
+    font-family: var(--font) !important;
+}
+
+html, body{
+    overflow-x: hidden !important;
+}
+
+.hero-section {
+    background-image: url(assets/images/hero/hero.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.selected:hover{
+    color: black !important;
+}
+
+.social-icons i {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s all ease;
+}
+
+.social-icons i:hover {
+    background-color: var(--primary) !important;
+    color: white;
+}
+
+nav .nav-link {
+    color: black !important;
+}
+
+nav button:hover {
+    color: black !important;
+    transition: .3s all ease;
+}
+
+.service-card {
+    box-shadow: 0px 8px 21px -10px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    position: relative;
+    width: 380px;
+    height: 140px;
+    top: -120px;
+}
+
+.service-card i {
+    width: 80px;
+    height: 70px;
+    display: flex;
+    transition: all 0.3s ease;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+}
+
+#greener {
+    background-color: var(--secondary) !important;
+    padding: 0px 60px;
+    border: 1px solid transparent;
+}
+
+#greener:hover {
+    background-color: transparent !important;
+    color: var(--secondary) !important;
+    border: 1px solid var(--secondary);
+}
+
+.service-card:hover {
+    background-color: var(--primary) !important;
+    color: white !important;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover p {
+    color: white !important;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover i {
+    background-color: white !important;
+}
+
+.about-section {
+    padding: 120px 50px;
+    padding-bottom: 0px;
+    background-color: #F8F9FA;
+}
+
+.as-img {
+    background-image: url(assets/images/about/image.png);
+    background-size: cover;
+    background-position: center;
+    height: 688px;
+}
+
+.appoinment-section {
+    padding: 48px 0px;
+}
+
+.appoinment-section input {
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    height: 54px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #fff !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+    font-size: 16px;
+    border-radius: 0;
+    outline: none;
+}
+
+.appoinment-section textarea {
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    height: 54px !important;
+    padding-left: 20px;
+    padding-right: 60px;
+    background: #fff !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+    font-size: 16px;
+    border-radius: 0;
+    outline: none;
+}
+
+.appoinment-section select {
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    height: 54px !important;
+    padding-left: 20px;
+    padding-right: 60px;
+    background: #fff !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+    font-size: 16px;
+    border-radius: 0;
+    appearance: none;
+    outline: none;
+    border-right: 0px solid transparent !important;
+}
+
+.appoinment-section button {
+    background-color: var(--secondary);
+    padding: 0px 60px;
+    border: 1px solid transparent;
+}
+
+.appoinment-section button:hover {
+    color: var(--secondary) !important;
+    border: 1px solid var(--secondary);
+}
+
+.input-group-text {
+    border-left: 1px solid transparent !important;
+}
+
+.groomers-section {
+    padding: 120px 0px;
+    background-color: #F8F9FA;
+}
+
+.gc-img {
+    width: 200px;
+    height: 200px;
+    top: -100px;
+}
+
+.gc {
+    height: 250px;
+    width: 250px;
+    margin-top: 140px;
+}
+
+.gc * {
+    transition: all 0.3s ease;
+}
+
+.gc:hover {
+    background-color: var(--secondary);
+    color: white !important;
+}
+
+.gc:hover div {
+    color: white !important;
+    transition: all 0.3s ease;
+}
+
+.gc:hover i {
+    transition: all 0.3s ease;
+    color: var(--secondary) !important;
+    background-color: white !important;
+}
+
+.carousel::before,
+.carousel::after,
+.carousel-item::before,
+.carousel-item::after {
+    content: none !important;
+    background: none !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    position: static;
+    color: var(--primary);
+    background-color: #E8F0F3;
+    opacity: 1;
+    transition: .3s all ease;
+    width: fit-content;
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+    background-color: var(--primary);
+}
+
+.carousel-indicators {
+    position: static;
+    margin: 0 !important;
+}
+
+.carousel-indicators button {
+    background-color: #CCCCCC !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.carousel-indicators button.active {
+    background-color: white !important;
+}
+
+.testinomials-section {
+    padding: 120px 0px;
+    background-image: url(assets/images/testinomial/background.png);
+    position: relative;
+    background-attachment: fixed;
+}
+
+.testinomials-section::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .8;
+    background: var(--primary);
+}
+
+.testinomials-section .card {
+    width: 350px;
+    height: 250px;
+}
+
+.testinomials-section .card img {
+    width: 80px;
+    height: 80px;
+}
+
+.plans-section {
+    background-color: #f8f9fa;
+    padding: 120px 0px;
+}
+
+.plans-body .card {
+    transition: all 0.3s ease;
+    box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.05);
+    width: 280px !important;
+}
+
+.plans-body .card:hover {
+    box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.11);
+}
+
+.blog-section{
+    padding: 120px 0px;
+}
+
+.blog-body h5:hover{
+    transition: all 0.3s ease;
+    color: var(--primary) !important;
+}
+
+.blog-set span:hover{
+    transition: all 0.3s ease;
+    color: black !important;
+}
+
+footer{
+    padding: 120px;
+    background-color: #E0E0E0;
+}
+
+.sep{
+    height: 3px;
+    background-color: var(--primary);
+    width: 30px;
+    margin-top: 10px;
+}
+
+.list-group-item:hover{
+    color: var(--primary) !important;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+    .top-nav {
+        display: none !important;
+    }
+}
