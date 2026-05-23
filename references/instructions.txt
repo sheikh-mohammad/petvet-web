@@ -1,0 +1,21 @@
+Dear Students,
+
+Your Techno Kids Final Exam is scheduled for tomorrow. The exam will be conducted in a hybrid format as follows:
+
+From home, you will create a replica of the landing page provided in the link.
+https://preview.colorlib.com/theme/petvet/
+
+Upload your project code to GitHub.
+
+Host your website on Netlify or GitHub Pages (hosting is compulsory).
+
+During the class, a Viva Voce will be conducted where you must explain each part of your code in detail.
+❗Failure to explain your code properly will result in a fail grade.
+
+Reporting Time: 7:30 PM (sharp)
+⏱️ Students arriving after 7:45 PM will not be allowed to attempt the exam.
+
+Ensure your code is uploaded and your project is live before the Viva session.
+
+Regards,
+Smit
